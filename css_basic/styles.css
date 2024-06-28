@@ -1,1 +1,36 @@
+/* Ensure the body is a flex container with column direction */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Ensure the main element is a flex container with row direction */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Set the article to take 2/3 of the width */
+article {
+    flex: 2;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Set the aside to take 1/3 of the width */
+aside {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Basic styling for header and footer */
+header, footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
 
