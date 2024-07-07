@@ -1,0 +1,256 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body,
+html {
+    height: 100%;
+    background-color: #979797;
+}
+header {
+    padding: 10px 0px 10px 0px;
+}
+/*styling for the logo */
+header .logo {
+    font-weight:bolder;
+    margin: 20px;
+}
+/* styling for the navigation */
+nav {
+    padding-top: 30px;
+    padding-bottom: 30px;  
+    margin-bottom: 4em;
+}
+.navlinkcontainer {
+list-style-type: none;
+display: flex;
+gap: 20px;
+align-items: last baseline;
+margin: auto;
+justify-content: space-between;
+width: 30%;
+outline: 1px solid black;
+float: right;
+}
+.navlink {
+    color:#979797 ;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navlink a {
+text-decoration: none;
+color: white;
+}
+.navlink a:hover{
+    color: rgb(100, 100, 100);
+    cursor: pointer;   
+}
+div {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.list {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding-bottom: 30px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+  h1{
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+.list {
+    list-style-type: none;
+display: flex;
+gap: 10px;
+align-items:normal;
+margin: auto;
+justify-content: space-between;
+width: 30%;
+height: 30%;
+}
+.list1 {
+    color: white;
+    list-style: none;
+  margin: auto;
+  display: inline;
+}
+ main section button {
+    border: none;
+    background:purple;
+    color: blueviolet;
+    border-radius: var(button);
+    font-size: x-small;
+    padding: 10px 20px 10px 20px;
+ }
+h2 {
+    text-align: center;
+    font-size: larger;
+    color: white;
+    width: 85%;
+    height:85px;
+    margin: 120px 120px 120px 120px;
+}
+.you {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    padding-bottom: 30px;
+    margin: 20px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+    float: inline-start;
+    padding-top: 60px;
+    list-style-type: none;
+gap: 10px;
+align-items:normal;
+}
+.you1 {list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    }
+   
+    
+    main section h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #A259FF;
+        float: inline-end;
+    }
+    
+    
+    
+    main section div div {
+        margin: 10px;
+        text-align: center;
+    }
+    main section div img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flexbox;
+    }
+    
+    .free-membership {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 502px;
+        background-color: #071629;
+    }
+    .free-membership h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        line-height: normal;
+        margin-top: 70px;
+    }
+    .free-membership>div {
+        display: flex;
+        margin: 58px 164px 85px;
+    }
+    div.members {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 253px;
+        height: 153px;
+        margin-left: 27px;
+    }
+    div.members img {
+        position: relative;
+        width: 43.6px;
+        height: 35.3px;
+    }
+    div.members h3 {
+        color: #fff;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        line-height: 26px;
+        font-style: normal;
+        margin-bottom: 13px;
+        padding-top: 25px;
+    }
+    div.members p {
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        font-style: normal;
+    }
+/* FAQ styles */
+main section.faq {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+main section.faq h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+main section.faq div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section.faq div div {
+    width: 45%;
+    margin: 10px;
+    text-align: left;
+}
+
+main section.faq h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main section.faq p {
+    font-size: 16px;
+    color: #A0A0A0;
+}
+    /* Footer styles */
+footer {
+    background-color: #071629;
+    color: white;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+footer i {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #A0A0A0;
+}
